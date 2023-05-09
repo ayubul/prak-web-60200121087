@@ -1,0 +1,244 @@
+2023-05-08 10:24:32 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121087\views\daftar-matakuliah\view.php in C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\DaftarMatakuliahController))
+#1 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('view', Array, Object(app\controllers\DaftarMatakuliahController))
+#2 C:\laragon\www\prak-web-60200121087\controllers\DaftarMatakuliahController.php(13): yii\base\Controller->render('view')
+#3 [internal function]: app\controllers\DaftarMatakuliahController->actionView()
+#4 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('view', Array)
+#7 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('daftar-matakuli...', Array)
+#8 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121087\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 10:24:32 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5kgq16c0cv4h5c9h0d7q7tf3d6'
+    '_csrf' => '5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jenrzO62Ekvc33IV_jHkfAV7KayI0t6h\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121087\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55777'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/daftar-matakuliah/view'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121087\\web\\index.php'
+    'PATH_INFO' => '/daftar-matakuliah/view'
+    'PHP_SELF' => '/index.php/daftar-matakuliah/view'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/daftar-matakuliah'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=5kgq16c0cv4h5c9h0d7q7tf3d6; _csrf=5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jenrzO62Ekvc33IV_jHkfAV7KayI0t6h%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683541472.6751
+    'REQUEST_TIME' => 1683541472
+]
+2023-05-08 10:24:47 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121087\views\daftar-matakuliah\view.php in C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\DaftarMatakuliahController))
+#1 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('view', Array, Object(app\controllers\DaftarMatakuliahController))
+#2 C:\laragon\www\prak-web-60200121087\controllers\DaftarMatakuliahController.php(13): yii\base\Controller->render('view')
+#3 [internal function]: app\controllers\DaftarMatakuliahController->actionView()
+#4 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('view', Array)
+#7 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('daftar-matakuli...', Array)
+#8 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121087\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 10:24:47 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5kgq16c0cv4h5c9h0d7q7tf3d6'
+    '_csrf' => '5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jenrzO62Ekvc33IV_jHkfAV7KayI0t6h\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121087\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55793'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/daftar-matakuliah/view'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121087\\web\\index.php'
+    'PATH_INFO' => '/daftar-matakuliah/view'
+    'PHP_SELF' => '/index.php/daftar-matakuliah/view'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/daftar-matakuliah/update'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=5kgq16c0cv4h5c9h0d7q7tf3d6; _csrf=5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jenrzO62Ekvc33IV_jHkfAV7KayI0t6h%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683541487.3531
+    'REQUEST_TIME' => 1683541487
+]
+2023-05-08 10:26:05 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121087\views\daftar-matakuliah\delate.php in C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\DaftarMatakuliahController))
+#1 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('delate', Array, Object(app\controllers\DaftarMatakuliahController))
+#2 C:\laragon\www\prak-web-60200121087\controllers\DaftarMatakuliahController.php(21): yii\base\Controller->render('delate')
+#3 [internal function]: app\controllers\DaftarMatakuliahController->actionDelate()
+#4 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delate', Array)
+#7 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('daftar-matakuli...', Array)
+#8 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121087\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 10:26:05 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5kgq16c0cv4h5c9h0d7q7tf3d6'
+    '_csrf' => '5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jenrzO62Ekvc33IV_jHkfAV7KayI0t6h\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121087\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55821'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/daftar-matakuliah/delate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121087\\web\\index.php'
+    'PATH_INFO' => '/daftar-matakuliah/delate'
+    'PHP_SELF' => '/index.php/daftar-matakuliah/delate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/daftar-matakuliah/update'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=5kgq16c0cv4h5c9h0d7q7tf3d6; _csrf=5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jenrzO62Ekvc33IV_jHkfAV7KayI0t6h%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683541565.2958
+    'REQUEST_TIME' => 1683541565
+]
+2023-05-08 10:26:25 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\laragon\www\prak-web-60200121087\views\daftar-matakuliah\delate.php in C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\laragon\\www\\...', Array, Object(app\controllers\DaftarMatakuliahController))
+#1 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('delate', Array, Object(app\controllers\DaftarMatakuliahController))
+#2 C:\laragon\www\prak-web-60200121087\controllers\DaftarMatakuliahController.php(21): yii\base\Controller->render('delate')
+#3 [internal function]: app\controllers\DaftarMatakuliahController->actionDelate()
+#4 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('delate', Array)
+#7 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('daftar-matakuli...', Array)
+#8 C:\laragon\www\prak-web-60200121087\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\laragon\www\prak-web-60200121087\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-08 10:26:25 [::1][-][5kgq16c0cv4h5c9h0d7q7tf3d6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '5kgq16c0cv4h5c9h0d7q7tf3d6'
+    '_csrf' => '5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"jenrzO62Ekvc33IV_jHkfAV7KayI0t6h\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121087\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55830'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/daftar-matakuliah/delate'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121087\\web\\index.php'
+    'PATH_INFO' => '/daftar-matakuliah/delate'
+    'PHP_SELF' => '/index.php/daftar-matakuliah/delate'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/daftar-matakuliah/update'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=5kgq16c0cv4h5c9h0d7q7tf3d6; _csrf=5b0ec478cad3bcd48e9574fae5a59a21d38f7c80bdf6b761b08d18edc15e91a2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22jenrzO62Ekvc33IV_jHkfAV7KayI0t6h%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683541585.0557
+    'REQUEST_TIME' => 1683541585
+]
